@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
     public float moveSpeed = 5;
+    public double deadZone = -12.18;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +16,9 @@ public class Movimiento : MonoBehaviour
     void Update()
     {
         transform.position = transform.position + (Vector3.left * moveSpeed) * Time.deltaTime;
+        if (transform.position.x < deadZone)
+        {
+            Destroy(gameObject);
+        }
     }
 }
