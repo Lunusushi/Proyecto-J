@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/menuPrincipal.unity
+    path: Assets/Scenes/menuPrincipal.unity
     guid: b4f457bcf8758e842a3565d60f982860
   - enabled: 1
-    path: Assets/MenuOpciones.unity
+    path: Assets/Scenes/MenuOpciones.unity
     guid: 5810e178213fd1744ba1b74358677439
   - enabled: 1
-    path: Assets/juegullo pajaro.unity
+    path: Assets/Scenes/juegullo pajaro.unity
     guid: 1d009b5644b99d9409b15576ed2b5123
   m_configObjects: {}
