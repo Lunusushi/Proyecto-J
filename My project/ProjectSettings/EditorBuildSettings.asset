@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/pantalla titulo prueba.unity
-    guid: 1020bd585a1077847a3e41781f3ebf12
+    path: Assets/menuPrincipal.unity
+    guid: b4f457bcf8758e842a3565d60f982860
+  - enabled: 1
+    path: Assets/MenuOpciones.unity
+    guid: 5810e178213fd1744ba1b74358677439
   - enabled: 1
     path: Assets/juegullo pajaro.unity
     guid: 1d009b5644b99d9409b15576ed2b5123
