@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/juegullo pajaro.unity
     guid: 1d009b5644b99d9409b15576ed2b5123
+  - enabled: 1
+    path: Assets/Scenes/TicTacToe.unity
+    guid: 30198c8b483422840a36737b78fc3eec
   m_configObjects: {}
