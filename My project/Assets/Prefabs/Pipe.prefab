@@ -30,10 +30,11 @@ Transform:
   m_LocalPosition: {x: 1.99, y: -12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1636709432159754819}
+  m_Children:
+  - {fileID: 1228800988542873014}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7447868758027785591
+--- !u!212 &3529142262613220080
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
