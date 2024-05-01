@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lunusushi\\Documents\\Archivos\\Tareas\\Proyecto J\\Proyecto-J\\My project\\",
+  "WorkspaceRootPath": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\lunusushi\\documents\\archivos\\tareas\\proyecto j\\proyecto-j\\my project\\assets\\scripts\\pipespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pipespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\controljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\controljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\gridspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\gridspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\audioloudnessdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\audioloudnessdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PipeSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\Lunusushi\\Documents\\Archivos\\Tareas\\Proyecto J\\Proyecto-J\\My project\\Assets\\Scripts\\PipeSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PipeSpawner.cs",
-              "ToolTip": "C:\\Users\\Lunusushi\\Documents\\Archivos\\Tareas\\Proyecto J\\Proyecto-J\\My project\\Assets\\Scripts\\PipeSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PipeSpawner.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T02:30:53.293Z",
+              "WhenOpened": "2024-04-30T23:46:12.703Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "controlJuego.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\controlJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\controlJuego.cs",
+              "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\controlJuego.cs",
+              "RelativeToolTip": "Assets\\controlJuego.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwG4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T22:12:59.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gridSpace.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\gridSpace.cs",
+              "RelativeDocumentMoniker": "Assets\\gridSpace.cs",
+              "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\gridSpace.cs",
+              "RelativeToolTip": "Assets\\gridSpace.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:52:50.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "audioloudnessdetection.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\audioloudnessdetection.cs",
+              "RelativeDocumentMoniker": "Assets\\audioloudnessdetection.cs",
+              "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\audioloudnessdetection.cs",
+              "RelativeToolTip": "Assets\\audioloudnessdetection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T20:09:56.385Z"
             }
           ]
         }
