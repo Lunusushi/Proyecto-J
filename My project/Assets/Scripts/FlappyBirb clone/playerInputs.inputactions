@@ -1,14 +1,14 @@
 {
-    "name": "playerControls",
+    "name": "playerInputs",
     "maps": [
         {
-            "name": "Player",
-            "id": "ec1af08d-f37b-4d17-88f5-2b816314c36e",
+            "name": "Jugador",
+            "id": "fbd84852-c7a3-4117-8771-f3253a66837f",
             "actions": [
                 {
                     "name": "Jump",
                     "type": "Button",
-                    "id": "1b3da0ec-703e-4f04-9130-ff934c90d747",
+                    "id": "02c152ff-5e8e-49f7-8082-994d535ac623",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -18,22 +18,22 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "8d50d5bc-6544-42bf-8a54-8efdb8100067",
+                    "id": "8c1bc152-8619-40ab-973b-ae551a45ac94",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Player1",
+                    "groups": "player1",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "6ca2cf94-7c24-4073-bf47-2dc37497c476",
+                    "id": "58652d87-712d-4dc3-bf7e-295fbba2890f",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Player2",
+                    "groups": "player2",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -43,8 +43,8 @@
     ],
     "controlSchemes": [
         {
-            "name": "Player1",
-            "bindingGroup": "Player1",
+            "name": "player1",
+            "bindingGroup": "player1",
             "devices": [
                 {
                     "devicePath": "<Keyboard>",
@@ -54,8 +54,8 @@
             ]
         },
         {
-            "name": "Player2",
-            "bindingGroup": "Player2",
+            "name": "player2",
+            "bindingGroup": "player2",
             "devices": [
                 {
                     "devicePath": "<Keyboard>",

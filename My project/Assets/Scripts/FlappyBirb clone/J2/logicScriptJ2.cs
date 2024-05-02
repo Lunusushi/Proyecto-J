@@ -3,25 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class logicScript : MonoBehaviour
+public class LogicScriptJ2 : MonoBehaviour
 {
-    public int playerScore;
-    public Text scoreText;
-    public GameObject GameOverScreen;
-    PajaroScript check;
+    public int p2Score;
+    public Text scoreTextP2;
+    public GameObject GameOverScreenJ2;
+    PajaroScriptJ2 checkP2;
 
     void Start()
     {
-        check = FindObjectOfType<PajaroScript>();
+        checkP2 = FindObjectOfType<PajaroScriptJ2>();
     }
 
     [ContextMenu("Increase Score")]
     public void addScore(int scoreToAdd)
     {
-        if (check.isAlive == true)
+        if (checkP2.isAlive == true)
         {
-            playerScore = playerScore + scoreToAdd;
-            scoreText.text = playerScore.ToString();
+            p2Score = p2Score + scoreToAdd;
+            scoreTextP2.text = p2Score.ToString();
         }
         
     }
@@ -33,7 +33,7 @@ public class logicScript : MonoBehaviour
 
     public void gameOver()
     {
-        GameOverScreen.SetActive(true);
+        GameOverScreenJ2.SetActive(true);
     }
 
 }

@@ -1,19 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
-using NumericsVector2 = System.Numerics.Vector2;
 using UnityEngine;
 
-public class PajaroScript : MonoBehaviour
+public class PajaroScriptJ1 : MonoBehaviour
 {
     public Rigidbody2D cuelpo;
     public float velocidad;   
-    public logicScript logic;
+    public LogicScriptJ1 logicJ1;
     public bool isAlive = true;
     // Start is called before the first frame update
     void Start()
     {
-        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<logicScript>();
-
+        logicJ1 = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScriptJ1>();
     }
 
     // Update is called once per frame
@@ -28,6 +24,6 @@ public class PajaroScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isAlive = false;
-        logic.gameOver();
+        logicJ1.gameOver();
     }
 }
