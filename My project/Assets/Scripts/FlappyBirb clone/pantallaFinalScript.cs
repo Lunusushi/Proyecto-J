@@ -34,12 +34,20 @@ public class pantallaFinalScript : MonoBehaviour
 
     public void otroJuego()
     {
-
+        int numeroRandom = Random.Range(0, 11);
+        if (numeroRandom <= 5)
+        {
+            SceneManager.LoadScene(3);
+        }
+        else
+        {
+            SceneManager.LoadScene(4);
+        }
     }
 
     public void salir()
     {
-
+        SceneManager.LoadScene(0);
     }
 
     void showTexto()
