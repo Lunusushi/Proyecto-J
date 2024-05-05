@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 public class LogicScriptJ1 : MonoBehaviour
 {
     public int p1Score;
@@ -24,11 +21,6 @@ public class LogicScriptJ1 : MonoBehaviour
             scoreTextP1.text = p1Score.ToString();
         }
         
-    }
-
-    public void restartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void gameOver()

@@ -6,18 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menus/menuPrincipal.unity
+    path: Assets/Scenes/menuPrincipal.unity
     guid: b4f457bcf8758e842a3565d60f982860
   - enabled: 1
-    path: Assets/Scenes/Menus/MenuOpciones.unity
+    path: Assets/Scenes/MenuOpciones.unity
     guid: 5810e178213fd1744ba1b74358677439
   - enabled: 1
-    path: Assets/Scenes/Menus/menuJugador.unity
-    guid: 2bd82b573ca7b54499b65a119f8f3815
-  - enabled: 1
-    path: Assets/Scenes/Juegos/juegullo pajaro.unity
+    path: Assets/Scenes/Flappy Birb/FBirb single.unity
     guid: 1d009b5644b99d9409b15576ed2b5123
   - enabled: 1
-    path: Assets/Scenes/Juegos/Singleplayer/TicTacToe.unity
+    path: Assets/Scenes/TicTacToe.unity
     guid: 30198c8b483422840a36737b78fc3eec
   m_configObjects: {}
