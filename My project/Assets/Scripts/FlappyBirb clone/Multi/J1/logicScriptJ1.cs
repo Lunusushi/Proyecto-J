@@ -1,5 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
+//Virtualmente igual a logicScriptJ2, entonces:
+//T(n) = 10t
+//O() = 1
 public class LogicScriptJ1 : MonoBehaviour
 {
     public int p1Score;
