@@ -1,26 +1,26 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class pantallaFinalScript : MonoBehaviour
+public class pantallaFinalScriptBot : MonoBehaviour
 {
-    public GameObject ganaJ1, ganaJ2, Empate, pantallaFinal;
+    public GameObject ganaJ1, ganaBot, Empate, pantallaFinal;
     PajaroScriptJ1 check1;
-    PajaroScriptJ2 check2;
+    BotScript checkBot;
     LogicScriptJ1 punt1;
-    LogicScriptJ2 punt2;
+    botLogic puntBot;
     void Start()
     {
         // esto sirve para poder acceder a los puntajes y los bools que indican si el jugador sigue vivo.
         check1 = FindObjectOfType<PajaroScriptJ1>();
-        check2 = FindObjectOfType<PajaroScriptJ2>();
+        checkBot = FindObjectOfType<BotScript>();
         punt1 = FindObjectOfType<LogicScriptJ1>();
-        punt2 = FindObjectOfType<LogicScriptJ2>();
+        puntBot = FindObjectOfType<botLogic>();
     }
 
     void Update()
     {
         //esto se ejecuta si ambos jugadores perdieron.
-        if (check1.isAlive == false && check2.isAlive == false)
+        if (check1.isAlive == false && checkBot.isAlive == false)
         {
             menu();
         }
@@ -55,17 +55,17 @@ public class pantallaFinalScript : MonoBehaviour
     void showTexto()
     {
         //Esto simplemente habilita los textos de la pantalla final dependiendo de quien gano.
-        if (punt1.p1Score > punt2.p2Score)
+        if (punt1.p1Score > puntBot.BotScore)
         {
             ganaJ1.SetActive(true);
         }
 
-        if (punt1.p1Score < punt2.p2Score)
+        if (punt1.p1Score < puntBot.BotScore)
         {
-            ganaJ2.SetActive(true);
+            ganaBot.SetActive(true);
         }
 
-        if (punt1.p1Score == punt2.p2Score)
+        if (punt1.p1Score == puntBot.BotScore)
         {
             Empate.SetActive(true);
         }
