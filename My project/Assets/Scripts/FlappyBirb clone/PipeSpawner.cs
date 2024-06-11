@@ -1,38 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+//T(n) = 7t + 5t + n(2t + 6t) + 5t
+//     = 17t + 8tn;
+// O() = n;
 
 public class PipeSpawner : MonoBehaviour
 {
-    public GameObject Pipe;
-    public float spawnRate = 2;
-    public float heightOffset = 5;
-    private float timer = 0;
+    public GameObject Pipe; //t
+    public float spawnRate = 2; //2t
+    public float heightOffset = 5; //2t
+    private float timer = 0; //2t
+
+    //t() = 7t
     
     // Start is called before the first frame update
-    void Start()
+    void Start() //t() = 5t
     {
-        spawnPipe();
+        spawnPipe(); //5t
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() //n  t() = 8tn
     {
         if (timer < spawnRate)
         {
-            timer = timer + Time.deltaTime;
+            timer = timer + Time.deltaTime; //2t
         }
         else
         {
-            spawnPipe();
-            timer = 0;
+            spawnPipe(); //5t
+            timer = 0; //t
         }
     }
-    void spawnPipe()
+    void spawnPipe() // t() = 5t
     {
-        float lowestPoint = transform.position.y - heightOffset;
-        float highestPoint = transform.position.y + heightOffset;
+        float lowestPoint = transform.position.y - heightOffset; //2t
+        float highestPoint = transform.position.y + heightOffset; //2t
 
-        Instantiate(Pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0), transform.rotation);
+        Instantiate(Pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0), transform.rotation); //t
     }
 }

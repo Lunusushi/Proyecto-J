@@ -1,27 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+
+//T(n) = t + t + 2t
+//     = 5t
+//O() = 1;
 
 public class triggerScriptJ2 : MonoBehaviour
 {
-    public LogicScriptJ2 logicJ2;
+    public LogicScriptJ2 logicJ2; //t
     // Start is called before the first frame update
-    void Start()
+    void Start() //t() = t
     {
-        logicJ2 = GameObject.FindGameObjectWithTag("Logic2").GetComponent<LogicScriptJ2>();
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
+        logicJ2 = GameObject.FindGameObjectWithTag("Logic2").GetComponent<LogicScriptJ2>(); //t
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //t() = 2t
     {
-        if(collision.gameObject.layer == 3)
+        if(collision.gameObject.layer == 3) //t
         {
-            logicJ2.addScore(1);
+            logicJ2.addScore(1); //t
         }
         
     }
