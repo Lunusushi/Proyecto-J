@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\tictactoe\\controljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tictactoe\\controljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\tictactoe\\gridspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tictactoe\\gridspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\menuprincipal\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\menuprincipal\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\menuprincipal\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\menuprincipal\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\menuprincipal\\menuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\menuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\audioloudnessdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\audioloudnessdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\tictactoe\\controljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tictactoe\\controljuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\tictactoe\\gridspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tictactoe\\gridspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\menuprincipal\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ResolutionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\ResolutionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal\\ResolutionManager.cs",
+              "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\ResolutionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuPrincipal\\ResolutionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T20:30:02.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuOpciones.cs",
+              "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
+              "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAmwHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T20:03:28.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "gridSpace.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\TicTacToe\\gridSpace.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TicTacToe\\gridSpace.cs",
@@ -42,12 +76,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TicTacToe\\gridSpace.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T23:03:32.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T23:03:32.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "StaticData.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\StaticData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal\\StaticData.cs",
@@ -59,20 +92,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "controlJuego.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\TicTacToe\\controlJuego.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TicTacToe\\controlJuego.cs",
               "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\TicTacToe\\controlJuego.cs",
               "RelativeToolTip": "Assets\\Scripts\\TicTacToe\\controlJuego.cs",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAYwMIAAAAiAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAIwOAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:22:29.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T19:22:29.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal\\MenuPrincipal.cs",
@@ -85,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "audioloudnessdetection.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\audioloudnessdetection.cs",
               "RelativeDocumentMoniker": "Assets\\audioloudnessdetection.cs",
