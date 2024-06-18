@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Juegos/Multiplayer/TicTacToe multi.unity
     guid: bb6825505d0f5d34fb31a7c97f47af1d
+  - enabled: 1
+    path: Assets/Scenes/Menus/juegoLibre.unity
+    guid: c66ba245b5a81d03a9157616c2fb0765
   m_configObjects: {}
