@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\menuprincipal\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\menuprincipal\\menuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\menuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\menuprincipal\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\menuprincipal\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\scripts\\menuprincipal\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\resolutionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\felipe\\documents\\proyecto analisis\\proyecto j unity\\proyecto-j\\my project\\assets\\scripts\\menuprincipal\\menuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal\\menuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\assets\\audioloudnessdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ResolutionManager.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\ResolutionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal\\ResolutionManager.cs",
@@ -50,18 +50,17 @@
               "RelativeToolTip": "Assets\\Scripts\\MenuPrincipal\\ResolutionManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T20:30:02.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T20:30:02.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MenuOpciones.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
               "ToolTip": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuPrincipal\\MenuOpciones.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAmwHkAAAAAAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAuwIMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T20:03:28.359Z",
               "EditorCaption": ""
@@ -104,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Felipe\\Documents\\proyecto analisis\\proyecto j unity\\Proyecto-J\\My project\\Assets\\Scripts\\MenuPrincipal\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPrincipal\\MenuPrincipal.cs",

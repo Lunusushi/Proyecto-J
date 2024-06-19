@@ -65,12 +65,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class MenuOpciones : MonoBehaviour
 {
     public TMPro.TMP_Dropdown resolucionesDropdown;
 
     Resolution[] resoluciones;
+
+    public AudioMixer audioMixer;
 
     void Start()
     {
@@ -118,4 +121,11 @@ public class MenuOpciones : MonoBehaviour
     {
         ResolutionManager.instance.CambiarPantallaCompleta(esPantComp);
     }
+
+    public void SetVolume (float volume)
+    {
+        audioMixer.SetFloat("volume", volume);
+    }
+
+
 }
