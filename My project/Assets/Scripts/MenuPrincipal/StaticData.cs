@@ -5,5 +5,4 @@ using UnityEngine;
 public class StaticData : MonoBehaviour
 {
     public static bool multi;
-    public static bool juegoLibre;
 }
