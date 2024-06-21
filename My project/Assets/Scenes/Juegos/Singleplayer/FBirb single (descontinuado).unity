@@ -1549,9 +1549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3036737283adc7e42a3d3b096aadc3da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BotScore: 0
-  scoreTextBot: {fileID: 199329486}
-  GameOverScreenBot: {fileID: 2131952707}
 --- !u!1 &938755663
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,20 +2271,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1375154125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6ca481c811257048b50e5f05e9990cf, type: 3}
+  m_Script: {fileID: 11500000, guid: c1859801fb2370c4cb56752c84a6f7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cuerpo: {fileID: 1375154129}
+  cuelpo: {fileID: 1375154129}
   velocidad: 6.5
   flapInterval: 0
-  flapValue: 0.3
+  flapValue: 0
   nextFlapTime: 0
-  botLogic: {fileID: 0}
+  logicJ2: {fileID: 0}
+  isAlive: 1
   obstacleDetector: {fileID: 1916729852}
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 0
-  isAlive: 1
+    m_Bits: 4294967295
 --- !u!1 &1453792314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,10 +2409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bffd83e484cd494409222f4dd57e1daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ganaJ1: {fileID: 1241864342}
-  ganaBot: {fileID: 733350980}
-  Empate: {fileID: 1046864889}
-  pantallaFinal: {fileID: 56260171}
 --- !u!1 &1606550033
 GameObject:
   m_ObjectHideFlags: 0
