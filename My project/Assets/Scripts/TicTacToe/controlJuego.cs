@@ -11,17 +11,15 @@ public class controlJuego : MonoBehaviour
     public GameObject panelO;
     public TextMeshProUGUI textoX;
     public TextMeshProUGUI textoO;
-
     public GameObject gameOverPanel;
     public TextMeshProUGUI gameOverText;
     public GameObject botonReinicio;
     public GameObject botonOtroJ;
     public GameObject botonMenuP;
-
+    public menuJugadores func;
     public TextMeshProUGUI[] listaBoton;
     private string delJugador;
     private int moveCount;
-
     bool bot = StaticData.multi;
 
     private void Awake()
@@ -37,8 +35,6 @@ public class controlJuego : MonoBehaviour
         
 
     }
-
-
 
     void ponerControlEnBoton()
     {
@@ -194,15 +190,7 @@ public class controlJuego : MonoBehaviour
     }
     public void otroJ()
     {
-        int numeroRandom = Random.Range(0, 11);
-        if (numeroRandom <= 5)
-        {
-            SceneManager.LoadScene(3);
-        }
-        else
-        {
-            SceneManager.LoadScene(4);
-        }
+        func.ElectorEscena();
     }
 
     void turnoComputador()

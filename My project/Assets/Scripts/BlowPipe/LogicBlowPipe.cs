@@ -9,6 +9,7 @@ public class LogicBlowPipe : MonoBehaviour
     public SafeZone currentPlayer;
     public internalLogic Check1, Check2;
     public InternalLogicBot CheckBot;
+    public menuJugadores func;
     public Text scoreTxtP1, scoreTxtP2, currentTurn;
     bool Bot = StaticData.multi;
     public int Score1, Score2, winningCondition;
@@ -149,16 +150,8 @@ public class LogicBlowPipe : MonoBehaviour
     }
     public void otroJuego() 
     {
-        //Esto selecciona un juego al azar. Requiere que no salga el mismo activo.
-        int numeroRandom = Random.Range(0, 11); 
-        if (numeroRandom <= 5) 
-        {
-            SceneManager.LoadScene(3); 
-        }
-        else
-        {
-            SceneManager.LoadScene(4); 
-        }
+        //Esto selecciona un juego al azar.
+        func.ElectorEscena();
     }
     public void salir() 
     {

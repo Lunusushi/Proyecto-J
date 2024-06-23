@@ -11,6 +11,7 @@ public class pantallaFinalScript : MonoBehaviour
     PajaroScriptJ2 check2; //t
     LogicScriptJ1 punt1; //t
     LogicScriptJ2 punt2; //t
+    public menuJugadores func;
     //t() = 8t
     void Start() //t() = 5t
     {
@@ -38,16 +39,7 @@ public class pantallaFinalScript : MonoBehaviour
 
     public void otroJuego() //t() = 3t
     {
-        //Esto selecciona un juego al azar. Requiere que no salga el mismo activo.
-        int numeroRandom = Random.Range(0, 11); //t
-        if (numeroRandom <= 5) //t
-        {
-            SceneManager.LoadScene(3); //t
-        }
-        else
-        {
-            SceneManager.LoadScene(4); //t
-        }
+        func.ElectorEscena();
     }
 
     public void salir() //t() = t

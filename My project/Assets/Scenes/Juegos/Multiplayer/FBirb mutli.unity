@@ -2378,6 +2378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1599270644}
   - component: {fileID: 1599270643}
+  - component: {fileID: 1599270645}
   m_Layer: 0
   m_Name: logicaMadre
   m_TagString: Untagged
@@ -2401,6 +2402,7 @@ MonoBehaviour:
   ganaJ2: {fileID: 733350980}
   Empate: {fileID: 1046864889}
   pantallaFinal: {fileID: 56260171}
+  func: {fileID: 1599270645}
 --- !u!4 &1599270644
 Transform:
   m_ObjectHideFlags: 0
@@ -2416,6 +2418,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1599270645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599270642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9fc27d3ef2e5649916c123875a53cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1606550033
 GameObject:
   m_ObjectHideFlags: 0
