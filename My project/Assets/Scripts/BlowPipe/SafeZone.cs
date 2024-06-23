@@ -6,6 +6,7 @@ public class SafeZone : MonoBehaviour
 {
     public LogicBlowPipe logic;
     public int scoreIncreaseRate = 1; 
+    public int CurrentPlayer;
 
     private Coroutine scoreCoroutine; 
 
@@ -36,8 +37,16 @@ public class SafeZone : MonoBehaviour
     {
         while (true) 
         {
-            logic.AddScore(scoreIncreaseRate); 
-            yield return new WaitForSeconds(1f); 
+            if (CurrentPlayer == 1)
+            {
+                logic.AddScore1(scoreIncreaseRate); 
+                yield return new WaitForSeconds(1f);
+            }
+            if (CurrentPlayer == 2)
+            {
+                logic.AddScore2(scoreIncreaseRate); 
+                yield return new WaitForSeconds(1f);
+            } 
         }
     }
 }

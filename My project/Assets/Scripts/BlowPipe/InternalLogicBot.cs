@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class internalLogic : MonoBehaviour
+public class InternalLogicBot : MonoBehaviour
 {
     public Rigidbody2D globito;
     public bool isExploded = false;

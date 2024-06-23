@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -37,6 +34,6 @@ public class Contador : MonoBehaviour
     {
         currentTime += 1;
 
-        TimerTxt.text = TimeLeft.ToString();
+        TimerTxt.text = TimeLeft.ToString("#.0");
     }
 }
