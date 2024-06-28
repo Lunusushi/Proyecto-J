@@ -1945,7 +1945,7 @@ MonoBehaviour:
   detector: {fileID: 33974637}
   Check: {fileID: 875283977}
   loudnessSensibility: 100
-  threshold: 15
+  threshold: 2
   smoothingFactor: 6
   scaleStep: 0.2
   Alive: 1
@@ -2696,7 +2696,7 @@ MonoBehaviour:
   detector: {fileID: 33974637}
   Check: {fileID: 1417980929}
   loudnessSensibility: 100
-  threshold: 15
+  threshold: 2
   smoothingFactor: 6
   scaleStep: 0.2
   Alive: 1

@@ -1,0 +1,44 @@
+[Proyecto-J]
+
+Este software consiste de tres minijuegos distintos cada uno usando un input distinto.
+
+Al presionar jugar obtendrá dos opciones, un jugador y multijugador, el modo un jugador lo hará jugar contra la computadora y el multijugador es un modo local. Al terminar cada minijuego, saldran opciones de reiniciar el juego, elegir otro y menu principal o salir. Reiniciar el juego, reinicia el juego. Otro juego elige al azar otro juego (esto significa que puede salir el mismo minijuego de nuevo). Y menu principal o salir, te dirige al menu principal.
+
+los minijuegos son los siguientes:
+
+Flappy Birb controles:
+
+    Aletear: J1 - Barra espaciadora J2 - Flecha arriba (no el shift).
+
+Gato/Tic tac toe controles:
+
+    Mouse para seleccionar espacio. los jugadores se turnan.
+
+Globito:
+
+    Microfono. los jugadores se turnan.
+
+Como jugar:
+
+Flappy Birb:
+
+    Como el clasico flappy bird, consiste en conseguir la mayor cantidad de puntos superando las tuberías sin chocar con ellas. Gana el jugador con más puntos
+
+Gato/Tic tac toe:
+
+    Se marcan los espacios con el mouse donde se quiera colocar la figura del jugador correspondiente, si se logra conectar tres figuras en linea ya sea vertical,
+    horizontal o diagonal, el que lo logre primero gana, si ningún jugador logra esto será un empate
+
+Globito:
+
+    Consiste en hablar en el microfono para mantener el globo en la zona segura de color verde hasta conseguir 10 puntos dentro de 30 segundos. Si se acaba el tiempo
+    antes de conseguir estos puntos o si se choca con los pinchos se procedera al turno del segundo jugador.
+
+
+ **********************************************************************************************************************************************************************
+Autores:
+    Felipe Rodriguez
+    Luis Nuñez
+
+Universidad:
+    Andres Bello, Chile.
